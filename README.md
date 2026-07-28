@@ -8,13 +8,25 @@ Drop a Google Docs export into `input/`, ask Claude Code for a review, and get b
 
 ![Downloading a Google Doc as a web page](github_resources/download_google_doc.gif)
 
+<br>
+
 **2. Drag the download into the `input/` folder:**
 
 ![Dragging the download into the input folder](github_resources/drop_into_input.gif)
 
+<br>
+
 **3. Open Claude Code in this repo and ask for a review:**
 
 ![Asking Claude Code to mark up the essay in the input folder](github_resources/Screenshot_1.png)
+
+<br>
+
+**4. Get your marked-up document:**
+
+![The flagged output: the document with color-coded inline flags and hover feedback](github_resources/final_output.gif)
+
+<br>
 
 Claude cleans the export, fans out review agents over the writing guides, and produces two files in `out/`:
 
