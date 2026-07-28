@@ -6,18 +6,15 @@ Drop a Google Docs export into `input/`, ask Claude Code for a review, and get b
 
 **1. Download your Google Doc as a web page** (File → Download → Web Page, .html zipped):
 
-https://github.com/sevdeawesome/claude-editorial-board/raw/master/github_resources/download_google_doc.mp4
+![Downloading a Google Doc as a web page](github_resources/download_google_doc.gif)
 
 **2. Drag the download into the `input/` folder:**
 
-https://github.com/sevdeawesome/claude-editorial-board/raw/master/github_resources/drop_into_input.mp4
+![Dragging the download into the input folder](github_resources/drop_into_input.gif)
 
 **3. Open Claude Code in this repo and ask for a review:**
 
-```
-claude
-> please review the doc in input/
-```
+![Asking Claude Code to mark up the essay in the input folder](github_resources/Screenshot_1.png)
 
 Claude cleans the export, fans out review agents over the writing guides, and produces two files in `out/`:
 
